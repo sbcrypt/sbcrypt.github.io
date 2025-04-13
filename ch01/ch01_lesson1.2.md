@@ -54,7 +54,7 @@ Good cryptography:
 
 This is called **Kerckhoffs' Principle:**
 
-> A cryptosystem should be secure even if everything about it is public—except the key.
+> <span style="color: blue; font-weight: bold;">A cryptosystem should be secure even if everything about it is public—except the key.</span>
 
 Alright—Lesson 1.2 is now complete!
 We're all warmed up to hit modular arithmetic and historical ciphers.
