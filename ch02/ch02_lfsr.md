@@ -32,7 +32,7 @@ Imagine a row of boxes (memory cells/flip-flops). At each 'tick' of a clock:
     <text x="85" y="25" font-size="14">⊕</text>
 
     <!-- Input/Output Lines -->
-    <line x1="40" y1="75" x2="50" y2="75" stroke="black" marker-end="url(#arrow)"/>
+    <line x1="10" y1="75" x2="50" y2="75" stroke="black" marker-end="url(#arrow)"/>
     <line x1="240" y1="75" x2="280" y2="75" stroke="black" marker-end="url(#arrow)"/>
 
     <!-- Explanatory Text -->
