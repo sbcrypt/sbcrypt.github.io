@@ -65,4 +65,4 @@ Ready for a challenge?
 
 ---
 
-[Previous: Lesson 1.1 - Overview](ch01.html) | [Next: Chapter 2 - Stream Ciphers](../ch02.html) <!-- Assuming ch02.html is next --> 
+[Previous: Lesson 1.1 - Overview](ch01.html) | [Next: Lesson 1.3-4 - Cryptanalysis & Modulo](ch01_lesson1.3-4.html) 
