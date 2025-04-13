@@ -16,4 +16,4 @@ Trivium is designed to be small and fast, especially in hardware.
 
 ---
 
-[Previous: Lesson 2.3 - Building CSPRNGs with LFSRs](ch02_lfsr.html) | [Next: Lesson 2 Summary](ch02_summary.html) 
+[Previous: The LFSR Linearity Attack](ch02_lfsr_attack.html) | [Next: Lesson 2 Summary](ch02_summary.html) 
