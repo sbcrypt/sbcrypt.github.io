@@ -57,6 +57,8 @@ This is called **Kerckhoffs' Principle:**
 > A cryptosystem should be secure even if everything about it is public—except the key.
 
 Alright—Lesson 1.2 is now complete!
-We're all warmed up to hit modular arithmetic and historical ciphers (which we just covered in Lesson 1.4).
+We're all warmed up to hit modular arithmetic and historical ciphers.
 
-Want a mini-puzzle using a substitution cipher before we leap into Chapter 2: Stream Ciphers? 
+Ready for a challenge?
+
+[Try the Lesson 1.2 Mini-Puzzle!](ch01_lesson1.2_puzzle.html) 
