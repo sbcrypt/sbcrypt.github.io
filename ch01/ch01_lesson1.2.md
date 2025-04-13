@@ -61,4 +61,8 @@ We're all warmed up to hit modular arithmetic and historical ciphers.
 
 Ready for a challenge?
 
-[Try the Lesson 1.2 Mini-Puzzle!](ch01_lesson1.2_puzzle.html) 
+[Try the Lesson 1.2 Mini-Puzzle!](ch01_lesson1.2_puzzle.html)
+
+---
+
+[Previous: Lesson 1.1 - Overview](ch01.html) | [Next: Chapter 2 - Stream Ciphers](../ch02.html) <!-- Assuming ch02.html is next --> 
