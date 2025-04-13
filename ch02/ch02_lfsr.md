@@ -44,10 +44,25 @@ If the current state (from left to right, `s_{i+2}, s_{i+1}, s_i`) is `110`.
 2.  What is the next bit to be fed into the left (`s_{i+3}`)?
 3.  What will the state be after one clock tick?
 
+<button onclick="revealAnswer('lfsrAnswer', this)">Reveal Answer</button>
+<span id="lfsrAnswer" style="display: none;">
 *(Answer: 1. Output `s_i` = 0. 2. Next bit `s_{i+3} = s_{i+1} ⊕ s_i = 1 ⊕ 0 = 1`. 3. New state = `111`.)*
+</span>
 
 ***
 
 ---
 
-[Previous: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html) | [Next: Lesson 2.3.3 - Non-Linearity & Trivium](ch02_nonlinear.html) 
+[Previous: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html) | [Next: Lesson 2.3.3 - Non-Linearity & Trivium](ch02_nonlinear.html)
+
+<script>
+function revealAnswer(answerId, buttonElement) {
+  const answerElement = document.getElementById(answerId);
+  if (answerElement) {
+    answerElement.style.display = 'inline'; // Or 'block' if needed
+  }
+  if (buttonElement) {
+    buttonElement.style.display = 'none'; // Hide button after clicking
+  }
+}
+</script> 

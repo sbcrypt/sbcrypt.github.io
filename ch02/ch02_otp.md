@@ -29,10 +29,25 @@ Oscar the Eavesdropper intercepts two ciphertexts, `y1` and `y2`, encrypted with
 
 What happens if Oscar XORs the two ciphertexts together? `y1 ⊕ y2 = ?` What valuable information does he get, even without knowing the key?
 
+<button onclick="revealAnswer('otpAnswer', this)">Reveal Answer</button>
+<span id="otpAnswer" style="display: none;">
 *(Answer: `y1 ⊕ y2 = x1 ⊕ x2`. Oscar gets the XOR sum of the two plaintexts! This leaks a *huge* amount of information. If Oscar knows or can guess one of the plaintexts (e.g., `x1`), he can immediately find the other (`x2 = (x1 ⊕ x2) ⊕ x1`). This is why reusing a keystream is disastrous.)*
+</span>
 
 ***
 
 ---
 
-[Previous: Lesson 2.2 - Randomness & RNGs](ch02_randomness.html) | [Next: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html) 
+[Previous: Lesson 2.2 - Randomness & RNGs](ch02_randomness.html) | [Next: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html)
+
+<script>
+function revealAnswer(answerId, buttonElement) {
+  const answerElement = document.getElementById(answerId);
+  if (answerElement) {
+    answerElement.style.display = 'inline'; // Or 'block' if needed
+  }
+  if (buttonElement) {
+    buttonElement.style.display = 'none'; // Hide button after clicking
+  }
+}
+</script> 

@@ -29,10 +29,25 @@ The *real* challenge isn't the XORing; it's generating a long, seemingly random,
 
 **🤔 Quick Question:** Alice encrypts the plaintext `1011` using the keystream `0110`. What is the ciphertext? Can you decrypt it back?
 
+<button onclick="revealAnswer('xorAnswer', this)">Reveal Answer</button>
+<span id="xorAnswer" style="display: none;">
 *(Answer: Ciphertext = `1011 ⊕ 0110 = 1101`. Decryption: `1101 ⊕ 0110 = 1011`)*
+</span>
 
 ***
 
 ---
 
-[Previous: Lesson 2.1.1 - Stream vs Block](ch02_intro.html) | [Next: Lesson 2.2 - Randomness & RNGs](ch02_randomness.html) 
+[Previous: Lesson 2.1.1 - Stream vs Block](ch02_intro.html) | [Next: Lesson 2.2 - Randomness & RNGs](ch02_randomness.html)
+
+<script>
+function revealAnswer(answerId, buttonElement) {
+  const answerElement = document.getElementById(answerId);
+  if (answerElement) {
+    answerElement.style.display = 'inline'; // Or 'block' if needed
+  }
+  if (buttonElement) {
+    buttonElement.style.display = 'none'; // Hide button after clicking
+  }
+}
+</script> 
