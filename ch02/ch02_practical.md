@@ -13,4 +13,4 @@ This is **computationally secure** – meaning breaking it *should* take an infe
 
 ---
 
-[Previous: Lesson 2.2.2 - The One-Time Pad](ch02_otp.html) | [Next: The LFSR Linearity Attack](ch02_lfsr_attack.html) 
+[Previous: Lesson 2.2.2 - The One-Time Pad](ch02_otp.html) | [Next: Lesson 2.3 - Building CSPRNGs with LFSRs](ch02_lfsr.html) 

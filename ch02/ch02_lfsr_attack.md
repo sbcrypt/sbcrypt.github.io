@@ -56,4 +56,4 @@ Knowing the feedback rule means Oscar can predict the *entire* future keystream 
 
 ---
 
-[Previous: Practical Stream Ciphers](ch02_practical.html) | [Next: Non-Linearity & Trivium](ch02_nonlinear.html) 
+[Previous: LFSR Overview](ch02_lfsr.html) | [Next: Non-Linearity & Trivium](ch02_nonlinear.html) 
