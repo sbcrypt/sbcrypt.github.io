@@ -55,14 +55,4 @@ If the current state (from left to right, `s_{i+2}, s_{i+1}, s_i`) is `110`.
 
 [Previous: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html) | [Next: Lesson 2.3.3 - Non-Linearity & Trivium](ch02_nonlinear.html)
 
-<script>
-function revealAnswer(answerId, buttonElement) {
-  const answerElement = document.getElementById(answerId);
-  if (answerElement) {
-    answerElement.style.display = 'inline'; // Or 'block' if needed
-  }
-  if (buttonElement) {
-    buttonElement.style.display = 'none'; // Hide button after clicking
-  }
-}
-</script> 
+<script src="../scripts/main.js"></script> 

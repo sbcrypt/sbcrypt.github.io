@@ -40,14 +40,4 @@ The *real* challenge isn't the XORing; it's generating a long, seemingly random,
 
 [Previous: Lesson 2.1.1 - Stream vs Block](ch02_intro.html) | [Next: Lesson 2.2 - Randomness & RNGs](ch02_randomness.html)
 
-<script>
-function revealAnswer(answerId, buttonElement) {
-  const answerElement = document.getElementById(answerId);
-  if (answerElement) {
-    answerElement.style.display = 'inline'; // Or 'block' if needed
-  }
-  if (buttonElement) {
-    buttonElement.style.display = 'none'; // Hide button after clicking
-  }
-}
-</script> 
+<script src="../scripts/main.js"></script> 

@@ -40,14 +40,4 @@ What happens if Oscar XORs the two ciphertexts together? `y1 ⊕ y2 = ?` What va
 
 [Previous: Lesson 2.2 - Randomness & RNGs](ch02_randomness.html) | [Next: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html)
 
-<script>
-function revealAnswer(answerId, buttonElement) {
-  const answerElement = document.getElementById(answerId);
-  if (answerElement) {
-    answerElement.style.display = 'inline'; // Or 'block' if needed
-  }
-  if (buttonElement) {
-    buttonElement.style.display = 'none'; // Hide button after clicking
-  }
-}
-</script> 
+<script src="../scripts/main.js"></script> 
