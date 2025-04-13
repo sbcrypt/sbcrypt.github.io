@@ -30,11 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function stepLfsr() {
         const outputBit = state[2];
-        const feedbackBit = state[1] ^ state[0]; // s_i+3 = s_i+1 XOR s_i
-        // Let's stick to the original text example: s_{i+3} = s_{i+1} ^ s_i
-        // const feedbackBit = state[1] ^ state[2]; // Corrected based on s_{i+3} = s_{i+1} ^ s_i
+        // Correct calculation based on s_{i+3} = s_{i+1} XOR s_i
+        const feedbackBit = state[1] ^ state[2]; 
 
-        // Show intermediate values
+        // Show intermediate values with correct indices displayed
         outputBitText.textContent = `Output (s_i): ${outputBit}`;
         feedbackBitText.textContent = `Feedback (s_i+1 ⊕ s_i): ${state[1]} ⊕ ${state[2]} = ${feedbackBit}`;
 
