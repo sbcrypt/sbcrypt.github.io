@@ -70,4 +70,36 @@ LFSRs are great for generating long sequences, but they are **LINEAR**. This mak
 
 [See a detailed example of how the attack works](ch02_lfsr_attack.html)
 
-1.  Oscar knows the LFSR degree `m`
+1.  Oscar knows the LFSR degree `m` (he can guess this).
+2.  He gets `2m` bits of known plaintext `x` and corresponding ciphertext `y`.
+3.  He calculates `2m` bits of the keystream: `s_i = x_i ⊕ y_i`.
+4.  He uses the LFSR's linear recurrence formula (`s_{i+m} = sum(p_j * s_{i+j})`) to set up `m` linear equations with the `m` unknown feedback coefficients (`p_j`) as variables.
+5.  He solves this system of linear equations (easy for computers!) to find the secret feedback taps `p_j`.
+6.  Boom! He knows the LFSR structure, can generate the whole keystream, and decrypts everything.
+
+**Lesson:** Never use a single, plain LFSR as your stream cipher's keystream generator!
+
+***
+
+**🧩 Mini LFSR Puzzle:**
+
+Consider the 3-bit LFSR from Example 2.3 again: `s_{i+3} = s_{i+1} ⊕ s_i`.
+If the current state (from left to right, `s_{i+2}, s_{i+1}, s_i`) is `110`.
+
+1.  What is the output bit `s_i`?
+2.  What is the next bit to be fed into the left (`s_{i+3}`)?
+3.  What will the state be after one clock tick?
+
+<button onclick="revealAnswer('lfsrAnswer', this)">Reveal Answer</button>
+<span id="lfsrAnswer" style="display: none;">
+*(Answer: 1. Output `s_i` = 0. 2. Next bit `s_{i+3} = s_{i+1} ⊕ s_i = 1 ⊕ 0 = 1`. 3. New state = `111`.)*
+</span>
+
+***
+
+---
+
+[Previous: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html) | [Next: Lesson 2.3.3 - Non-Linearity & Trivium](ch02_nonlinear.html)
+
+<script src="../scripts/main.js"></script>
+<script src="../scripts/lfsr_animation.js"></script>
