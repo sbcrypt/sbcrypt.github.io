@@ -16,4 +16,4 @@ Ready for the next chapter when you are!
 
 ---
 
-[Previous: Lesson 2.3.3 - Non-Linearity & Trivium](ch02_nonlinear.html) | [Next: Chapter 3 - Block Ciphers](../ch03/ch03_intro.html) <!-- Placeholder for Ch 3 --> 
+[Previous: Lesson 2.3.3 - Non-Linearity & Trivium](ch02_nonlinear.html) | [Next: Chapter 3 Intro](../ch03/ch03_intro.html) 
