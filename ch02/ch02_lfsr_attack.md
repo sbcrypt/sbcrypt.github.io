@@ -56,4 +56,9 @@ Knowing the feedback rule means Oscar can predict the *entire* future keystream 
 
 ---
 
-[Previous: LFSR Overview](ch02_lfsr.html) | [Next: Non-Linearity & Trivium](ch02_nonlinear.html) 
+<div class="page-navigation">
+    <a href="ch02_lfsr.html" class="prev">← Previous: LFSRs Overview</a>
+    <a href="ch02_nonlinear.html" class="next">Next: Non-Linearity & Trivium →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

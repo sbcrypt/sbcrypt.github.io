@@ -10,4 +10,9 @@ The security of a stream cipher lives and dies by its keystream. If the keystrea
 
 ---
 
-[Previous: Lesson 2.1.2 - XOR Encryption](ch02_xor.html) | [Next: Lesson 2.2.2 - The One-Time Pad](ch02_otp.html) 
+<div class="page-navigation">
+    <a href="ch02_xor.html" class="prev">← Previous: XOR Encryption</a>
+    <a href="ch02_otp.html" class="next">Next: One-Time Pad →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

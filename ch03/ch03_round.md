@@ -92,9 +92,10 @@ Each of the 16 rounds in DES does the following (using the Feistel structure):
 *(Answer: To introduce non-linearity (Confusion), making the relationship between the key and the ciphertext complex and resistant to linear attacks.)*
 </span>
 
----
+<div class="page-navigation">
+    <a href="ch03_overview.html" class="prev">← Previous: DES Overview & Feistel Network</a>
+    <a href="ch03_keyschedule.html" class="next">Next: DES Key Schedule →</a>
+</div>
 
-[Previous: DES Overview](ch03_overview.html) | [Next: The DES Key Schedule](ch03_keyschedule.html)
-
-<script src="../scripts/main.js"></script> <!-- Include shared revealAnswer function -->
-<script src="../scripts/f_function_animation.js"></script> 
+<script src="../scripts/main.js"></script>
+<script src="../scripts/f_function_animation.js"></script>

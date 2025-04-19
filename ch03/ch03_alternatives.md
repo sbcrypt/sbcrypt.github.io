@@ -41,6 +41,9 @@ With the 56-bit key size becoming a critical vulnerability, the cryptographic co
 
 ---
 
-[Previous: DES Decryption & Security](ch03_security.html) | [Next: Chapter 3 Summary](ch03_summary.html)
+<div class="page-navigation">
+    <a href="ch03_security.html" class="prev">← Previous: DES Security Analysis</a>
+    <a href="ch03_summary.html" class="next">Next: Chapter 3 Summary →</a>
+</div>
 
-<script src="../scripts/main.js"></script> <!-- Include shared revealAnswer function --> 
+<script src="../scripts/main.js"></script>

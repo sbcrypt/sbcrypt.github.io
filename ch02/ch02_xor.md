@@ -36,8 +36,9 @@ The *real* challenge isn't the XORing; it's generating a long, seemingly random,
 
 ***
 
----
+<div class="page-navigation">
+    <a href="ch02_intro.html" class="prev">← Previous: Intro to Stream Ciphers</a>
+    <a href="ch02_randomness.html" class="next">Next: Randomness & RNGs →</a>
+</div>
 
-[Previous: Lesson 2.1.1 - Stream vs Block](ch02_intro.html) | [Next: Lesson 2.2 - Randomness & RNGs](ch02_randomness.html)
-
-<script src="../scripts/main.js"></script> 
+<script src="../scripts/main.js"></script>

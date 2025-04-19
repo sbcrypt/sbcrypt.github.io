@@ -27,4 +27,9 @@ Trivium is designed to be very efficient, especially when implemented directly i
 
 ---
 
-[Previous: The LFSR Linearity Attack](ch02_lfsr_attack.html) | [Next: Lesson 2 Summary](ch02_summary.html) 
+<div class="page-navigation">
+    <a href="ch02_lfsr_attack.html" class="prev">← Previous: LFSR Linearity Attack</a>
+    <a href="ch02_summary.html" class="next">Next: Chapter 2 Summary →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

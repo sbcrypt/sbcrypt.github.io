@@ -65,4 +65,11 @@ Ready for a challenge?
 
 ---
 
-[Previous: Lesson 1.1 - Overview](ch01.html) | [Next: Lesson 1.3-4 - Cryptanalysis & Modulo](ch01_lesson1.3-4.html) 
+[Previous: Lesson 1.1 - Overview](ch01.html) | [Next: Lesson 1.3-4 - Cryptanalysis & Modulo](ch01_lesson1.3-4.html)
+
+<div class="page-navigation">
+    <a href="ch01.html" class="prev">← Previous: Overview & Alice/Bob</a>
+    <a href="ch01_lesson1.2_puzzle.html" class="next">Next: Substitution Cipher Puzzle →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

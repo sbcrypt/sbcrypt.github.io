@@ -13,4 +13,9 @@ This is **computationally secure** – meaning breaking it *should* take an infe
 
 ---
 
-[Previous: Lesson 2.2.2 - The One-Time Pad](ch02_otp.html) | [Next: Lesson 2.3 - Building CSPRNGs with LFSRs](ch02_lfsr.html) 
+<div class="page-navigation">
+    <a href="ch02_otp.html" class="prev">← Previous: One-Time Pad (OTP)</a>
+    <a href="ch02_lfsr.html" class="next">Next: LFSRs Overview →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

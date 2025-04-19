@@ -31,6 +31,9 @@ The Feistel structure splits the block into two halves. The `f`-function only ne
 
 ---
 
-[Previous: The DES Key Schedule](ch03_keyschedule.html) | [Next: Life After DES - Alternatives](ch03_alternatives.html)
+<div class="page-navigation">
+    <a href="ch03_keyschedule.html" class="prev">← Previous: DES Key Schedule</a>
+    <a href="ch03_alternatives.html" class="next">Next: DES Implementation & Alternatives →</a>
+</div>
 
-<script src="../scripts/main.js"></script> <!-- Include shared revealAnswer function --> 
+<script src="../scripts/main.js"></script>

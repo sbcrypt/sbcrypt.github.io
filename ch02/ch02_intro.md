@@ -13,4 +13,9 @@ Imagine you're sending a super long, top-secret message. Instead of chopping it 
 
 ---
 
-[Previous: Chapter 1 Summary](../ch01/ch01_lesson1.3-4.html) | [Next: Lesson 2.1.2 - XOR Encryption](ch02_xor.html) 
+<div class="page-navigation">
+    <a href="../ch01/ch01_lesson1.3-4.html" class="prev">← Previous: Chapter 1 Summary</a>
+    <a href="ch02_xor.html" class="next">Next: XOR Encryption →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

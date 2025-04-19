@@ -106,6 +106,10 @@ The output is your 64-bit ciphertext block.
 
 ---
 
-[Previous: Intro to Block Ciphers](ch03_intro.html) | [Next: Inside a DES Round](ch03_round.html)
+<div class="page-navigation">
+    <a href="ch03_intro.html" class="prev">← Previous: Intro & Confusion/Diffusion</a>
+    <a href="ch03_round.html" class="next">Next: Inside a DES Round →</a>
+</div>
 
-<script src="../scripts/feistel_round_animation.js"></script> 
+<script src="../scripts/main.js"></script>
+<script src="../scripts/feistel_round_animation.js"></script>

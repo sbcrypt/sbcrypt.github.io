@@ -24,4 +24,11 @@
 ---
 
 [Back to the Puzzle](ch01_lesson1.2_puzzle.html)
-[Back to Lesson 1.2](ch01_lesson1.2.html) 
+[Back to Lesson 1.2](ch01_lesson1.2.html)
+
+<div class="page-navigation">
+    <a href="ch01_lesson1.2_puzzle.html" class="prev">← Previous: Substitution Cipher Puzzle</a>
+    <a href="ch01_lesson1.3-4.html" class="next">Next: Cryptanalysis & Modulo Math →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

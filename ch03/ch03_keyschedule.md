@@ -26,6 +26,9 @@ This process ensures each round key K_i is different and uses a unique combinati
 
 ---
 
-[Previous: Inside a DES Round](ch03_round.html) | [Next: DES Decryption & Security](ch03_security.html)
+<div class="page-navigation">
+    <a href="ch03_round.html" class="prev">← Previous: Inside a DES Round</a>
+    <a href="ch03_security.html" class="next">Next: DES Security Analysis →</a>
+</div>
 
-<script src="../scripts/main.js"></script> <!-- Include shared revealAnswer function --> 
+<script src="../scripts/main.js"></script>

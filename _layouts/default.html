@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: "Cryptography Principles" }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% include mathjax_include.html %}
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="{{ '/' | relative_url }}" class="site-title">Cryptography Principles</a>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <article class="content chapter-content">
+                {{ content }}
+            </article>
+        </main>
+    </div>
+    <script src="{{ '/scripts/main.js' | relative_url }}"></script>
+</body>
+</html>

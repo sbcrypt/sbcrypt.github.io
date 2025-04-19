@@ -17,4 +17,9 @@ Ready to meet the reigning champion, AES, in the next chapter?
 
 ---
 
-[Previous: Life After DES - Alternatives](ch03_alternatives.html) | [Next: Chapter 4 - AES](../ch04/ch04_intro.html) <!-- Placeholder --> 
+<div class="page-navigation">
+    <a href="ch03_alternatives.html" class="prev">← Previous: DES Implementation & Alternatives</a>
+    <a href="../ch04/ch04_intro.html" class="next">Next: Chapter 4 - Advanced Encryption Standard →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

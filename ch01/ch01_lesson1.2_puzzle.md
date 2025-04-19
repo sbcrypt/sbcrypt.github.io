@@ -25,6 +25,13 @@ Can you decrypt the message?
   <p id="feedback" style="margin-top: 10px; font-weight: bold;"></p>
 </div>
 
+<div class="page-navigation">
+    <a href="ch01_lesson1.2.html" class="prev">← Previous: Symmetric Ciphers & Substitution</a>
+    <a href="ch01_lesson1.2_solution.html" class="next">Next: Puzzle Solution →</a>
+</div>
+
+<script src="../scripts/main.js"></script>
+
 ---
 
 [Ready for the solution?](ch01_lesson1.2_solution.html) <!-- Link to the solution page -->
@@ -49,4 +56,4 @@ function checkSolution() {
     feedbackElement.style.color = 'red';
   }
 }
-</script> 
+</script>

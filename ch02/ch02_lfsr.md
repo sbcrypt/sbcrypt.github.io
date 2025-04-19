@@ -97,9 +97,10 @@ If the current state (from left to right, `s_{i+2}, s_{i+1}, s_i`) is `110`.
 
 ***
 
----
-
-[Previous: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html) | [Next: Lesson 2.3.3 - Non-Linearity & Trivium](ch02_nonlinear.html)
+<div class="page-navigation">
+    <a href="ch02_practical.html" class="prev">← Previous: Practical Stream Ciphers</a>
+    <a href="ch02_lfsr_attack.html" class="next">Next: LFSR Linearity Attack →</a>
+</div>
 
 <script src="../scripts/main.js"></script>
 <script src="../scripts/lfsr_animation.js"></script>

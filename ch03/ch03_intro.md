@@ -25,6 +25,9 @@ Good ciphers mix confusion and diffusion repeatedly over multiple "rounds."
 
 ---
 
-[Previous: Chapter 2 Summary](../ch02/ch02_summary.html) | [Next: DES Overview - The Feistel Network](ch03_overview.html)
+<div class="page-navigation">
+    <a href="../ch02/ch02_summary.html" class="prev">← Previous: Chapter 2 Summary</a>
+    <a href="ch03_overview.html" class="next">Next: DES Overview (Feistel Network) →</a>
+</div>
 
-<script src="../scripts/main.js"></script> <!-- Include shared revealAnswer function --> 
+<script src="../scripts/main.js"></script>

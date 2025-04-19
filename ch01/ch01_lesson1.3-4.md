@@ -69,4 +69,11 @@ If x = 0 (A), then:
 
 ---
 
-[Previous: Lesson 1.2 - Symmetric Ciphers & Substitution](ch01_lesson1.2.html) | [Next: Chapter 2 Intro](../ch02/ch02_intro.html) 
+[Previous: Lesson 1.2 - Symmetric Ciphers & Substitution](ch01_lesson1.2.html) | [Next: Chapter 2 Intro](../ch02/ch02_intro.html)
+
+<div class="page-navigation">
+    <a href="ch01_lesson1.2_solution.html" class="prev">← Previous: Substitution Cipher Solution</a>
+    <a href="../ch02/ch02_intro.html" class="next">Next: Chapter 2 - Stream Ciphers →</a>
+</div>
+
+<script src="../scripts/main.js"></script>

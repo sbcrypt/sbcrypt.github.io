@@ -36,8 +36,9 @@ What happens if Oscar XORs the two ciphertexts together? `y1 ⊕ y2 = ?` What va
 
 ***
 
----
+<div class="page-navigation">
+    <a href="ch02_randomness.html" class="prev">← Previous: Randomness & RNGs</a>
+    <a href="ch02_practical.html" class="next">Next: Practical Stream Ciphers →</a>
+</div>
 
-[Previous: Lesson 2.2 - Randomness & RNGs](ch02_randomness.html) | [Next: Lesson 2.2.3 - Practical Stream Ciphers](ch02_practical.html)
-
-<script src="../scripts/main.js"></script> 
+<script src="../scripts/main.js"></script>
